@@ -96,7 +96,7 @@ quality remain at the top of our agenda allowing our products and services to ad
           justify='center'
           align='center'
         >
-          <Heading tag='h2'>
+          <Heading tag='h2' align='center'>
             Quality Mass Measurement Products:
           </Heading>
 
@@ -223,7 +223,7 @@ quality remain at the top of our agenda allowing our products and services to ad
           justify='center'
           align='center'
         >
-          <Heading tag='h2'>
+          <Heading tag='h2' align='center'>
             Unique Monitoring and Reporting Systems
           </Heading>
 
@@ -271,7 +271,7 @@ quality remain at the top of our agenda allowing our products and services to ad
           justify='center'
           align='center'
         >
-          <Heading tag='h2'>
+          <Heading tag='h2' align='center'>
             New Developments
           </Heading>
 
@@ -306,21 +306,18 @@ quality remain at the top of our agenda allowing our products and services to ad
         >
           <Title>
             <Robot />
-            Optimising processes. Maximising profits.
+            
           </Title>
           <Box direction='row'
             align='center'
             pad={{"between": "medium"}}>
+            <Anchor href='mailto:info@mass.kg'>
+              Contact
+            </Anchor>
             <Paragraph margin='none'>
               © 2018 Mass Accreditation Services and Solutions
             </Paragraph>
-            <Menu direction='row'
-              size='small'
-              dropAlign={{"right": "right"}}>
-              <Anchor href='mailto:info@mass.kg'>
-                Contact
-              </Anchor>
-            </Menu>
+
           </Box>
         </Footer>
       </Article>
