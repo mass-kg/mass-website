@@ -33,10 +33,9 @@ class Login extends Component {
   _onSubmit(fields) {
     const { dispatch } = this.props;
     const { router } = this.context;
-    /*
     dispatch(login(fields.username, fields.password, () => (
       router.history.push('/dashboard')
-    )));*/
+    )));
   }
 
   render() {
