@@ -5,6 +5,10 @@ export const SESSION_LOAD = 'SESSION_LOAD';
 export const SESSION_LOGIN = 'SESSION_LOGIN';
 export const SESSION_LOGOUT = 'SESSION_LOGOUT';
 
+// LANDING
+export const LANDING_LOAD = 'LANDING_LOAD';
+export const LANDING_UNLOAD = 'LANDING_UNLOAD';
+
 // Dashboard
 export const DASHBOARD_LOAD = 'DASHBOARD_LOAD';
 export const DASHBOARD_UNLOAD = 'DASHBOARD_UNLOAD';

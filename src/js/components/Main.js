@@ -9,6 +9,7 @@ import NavSidebar from './NavSidebar';
 import { navResponsive } from '../actions/nav';
 
 import Login from '../screens/Login';
+import Landing from '../screens/Landing';
 import Dashboard from '../screens/Dashboard';
 import Tasks from '../screens/Tasks';
 import Task from '../screens/Task';
@@ -45,7 +46,7 @@ class Main extends Component {
           >
             {nav}
             <Switch>
-              <Route exact={true} path='/' component={Dashboard} />
+              <Route exact={true} path='/' component={Landing} />
               <Route path='/dashboard' component={Dashboard} />
               <Route path='/login' component={Login} />
               <Route path='/tasks/:id' component={Task} />

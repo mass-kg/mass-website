@@ -33,9 +33,10 @@ class Login extends Component {
   _onSubmit(fields) {
     const { dispatch } = this.props;
     const { router } = this.context;
+    /*
     dispatch(login(fields.username, fields.password, () => (
       router.history.push('/dashboard')
-    )));
+    )));*/
   }
 
   render() {
@@ -55,7 +56,7 @@ class Login extends Component {
           >
             <Heading tag='h1' strong={true}>Mass Website</Heading>
             <Paragraph align='center' size='large'>
-              Development with Grommet is cool.
+              Optimising processes. Maximising profits.
             </Paragraph>
           </Section>
         </Article>
