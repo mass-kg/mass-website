@@ -53,7 +53,7 @@ class Login extends Component {
             justify='center'
             align='center'
           >
-            <Heading tag='h1' strong={true}>Mass Website</Heading>
+            <Heading tag='h1' strong={true}>MASS Remote Monitoring</Heading>
             <Paragraph align='center' size='large'>
               Optimising processes. Maximising profits.
             </Paragraph>
@@ -65,7 +65,7 @@ class Login extends Component {
           <LoginForm
             align='start'
             logo={<Logo className='logo' colorIndex='brand' />}
-            title='Mass Website'
+            title='Please sign in'
             onSubmit={this._onSubmit}
             errors={[error]}
             usernameType='text'
