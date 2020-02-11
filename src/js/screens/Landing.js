@@ -14,7 +14,7 @@ import ListItem from 'grommet/components/ListItem';
 import Columns from 'grommet/components/Columns';
 import Box from 'grommet/components/Box';
 import Title from 'grommet/components/Title';
-import Menu from 'grommet/components/Menu';
+// import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Robot from 'grommet/components/icons/base/Robot';
 
@@ -28,7 +28,7 @@ import Spinning from 'grommet/components/icons/Spinning';
 */
 // import { getMessage } from 'grommet/utils/Intl';
 
-import NavControl from '../components/NavControl';
+// import NavControl from '../components/NavControl';
 import {
   loadLanding, unloadLanding
 } from '../actions/landing';
@@ -56,9 +56,9 @@ class Landing extends Component {
           direction='row'
           justify='center'
           size='large'
-          pad={{ horizontal: 'medium', between: 'small'}}
+          pad={{ horizontal: 'medium', between: 'small' }}
         >
-        <Image src='/img/mass-logo.png' size='small' />
+          <Image src='/img/mass-logo.png' size='small' />
         </Header>
 
         <Section
@@ -84,9 +84,11 @@ class Landing extends Component {
           align='center'
         >
           <Paragraph>
-          We manufacture and supply mass measurement equipment for the mining and agricultural industry. Recently we have added software solutions to optimise the mass balancing and plant control processes through, remote monitoring, automated reporting and real time manager intervention.
-Innovation and
-quality remain at the top of our agenda allowing our products and services to add value to your process.
+          We manufacture and supply mass measurement equipment for the mining and agricultural
+          industry. Recently we have added software solutions to optimise the mass balancing and
+          plant control processes through, remote monitoring, automated reporting and real time
+          manager intervention. Innovation and quality remain at the top of our agendaallowing our
+          products and services to add value to your process.
           </Paragraph>
 
         </Section>
@@ -102,9 +104,9 @@ quality remain at the top of our agenda allowing our products and services to ad
 
           <Columns justify='center'>
             <Box
-            align='center'
-            pad='medium'
-            margin='small'>
+              align='center'
+              pad='medium'
+              margin='small'>
               <List>
                 <ListItem justify='between'
                   separator='bottom'>
@@ -306,11 +308,11 @@ quality remain at the top of our agenda allowing our products and services to ad
         >
           <Title>
             <Robot />
-            
+
           </Title>
           <Box direction='row'
             align='center'
-            pad={{"between": "medium"}}>
+            pad={{ between: 'medium' }}>
             <Anchor href='mailto:info@mass.kg'>
               Contact
             </Anchor>

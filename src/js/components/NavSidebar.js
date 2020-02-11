@@ -8,7 +8,7 @@ import Title from 'grommet/components/Title';
 import Menu from 'grommet/components/Menu';
 import Button from 'grommet/components/Button';
 import CloseIcon from 'grommet/components/icons/base/Close';
-import Logo from 'grommet/components/icons/Grommet';
+// import Logo from 'grommet/components/icons/Grommet';
 import Anchor from 'grommet/components/Anchor';
 
 import SessionMenu from './SessionMenu';

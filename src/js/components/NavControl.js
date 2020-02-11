@@ -6,8 +6,8 @@ import { connect } from 'react-redux';
 import Box from 'grommet/components/Box';
 import Button from 'grommet/components/Button';
 import Title from 'grommet/components/Title';
-import Logo from 'grommet/components/icons/Grommet';
-import Image from 'grommet/components/Image';
+// import Logo from 'grommet/components/icons/Grommet';
+// import Image from 'grommet/components/Image';
 
 import { navActivate } from '../actions/nav';
 

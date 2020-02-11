@@ -8,9 +8,9 @@ export function initialize() {
   return (dispatch) => {
     /* const { email, name, token } = localStorage;
      if (email && token) { */
-      dispatch({
-        type: SESSION_LOAD, payload: { /* email, name, token */ }
-      });
+    dispatch({
+      type: SESSION_LOAD, payload: { /* email, name, token */ }
+    });
     /* } else {
       window.location = '/login';
     } */
